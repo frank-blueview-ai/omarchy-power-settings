@@ -1,0 +1,4 @@
+{
+  "settings": "Power settings",
+  "lidError": "Could not keep the laptop awake on lid close. Check Power settings."
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "bvos.power",
+  "name": "Blue View Power Settings",
+  "version": "1.0.0",
+  "author": "The Blue View Group Corporation",
+  "description": "Battery, power profiles, lid behavior, charging, and idle settings",
+  "kinds": [
+    "bar-widget",
+    "service"
+  ],
+  "entryPoints": {
+    "barWidget": "Panel.qml",
+    "service": "Service.qml"
+  },
+  "barWidget": {
+    "displayName": "Blue View Power Settings",
+    "description": "Battery, power profiles, lid behavior, charging, and idle settings",
+    "category": "System",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  },
+  "omarchy": {
+    "clonedFrom": "omarchy.power"
+  },
+  "license": "MIT"
+}
